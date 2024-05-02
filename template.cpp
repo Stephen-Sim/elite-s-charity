@@ -1,8 +1,6 @@
 #include <iostream>
 using namespace std;
 
-const int SIZE = 100000000;
-
 void solve()
 {
 	
