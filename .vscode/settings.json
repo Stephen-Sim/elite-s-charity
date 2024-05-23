@@ -4,6 +4,9 @@
         "numeric": "cpp",
         "algorithm": "cpp",
         "iosfwd": "cpp",
-        "xstring": "cpp"
+        "xstring": "cpp",
+        "list": "cpp",
+        "xtree": "cpp",
+        "xutility": "cpp"
     }
 }
