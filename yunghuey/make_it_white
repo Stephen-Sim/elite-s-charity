@@ -1,0 +1,37 @@
+// codeforces
+#include<bits/stdc++.h>
+ 
+using namespace std;
+ 
+int main()
+{
+ int i,t,n,r;
+ char a[15];
+ cin>>t;
+ while(t--)
+ {
+     r=0;
+      cin>>n;
+     cin>>a;
+     for(i=0;i<n;i++)
+     {
+         if(a[i]=='B')
+            break;
+         r++;
+     }
+     for(i=n-1;i>=0;i--)
+     {
+          if(a[i]=='B')
+            break;
+         r++;
+     }
+     cout<<n-r<<endl;
+ 
+ 
+ }
+ 
+ 
+ 
+ 
+return 0;
+}
